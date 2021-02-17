@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="680.0" prefWidth="980.0" styleClass="parent" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.E_Library.MainController">
+   <children>
+      <Pane layoutX="1.0" layoutY="140.0" prefHeight="400.0" prefWidth="980.0" styleClass="pane">
+         <children>
+            <Label layoutX="21.0" layoutY="84.0" text="Don't have an account?" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="141.0" text="Wallah!" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="191.0" prefHeight="70.0" prefWidth="207.0" text="Sign-Up to get started with the E-Library..." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="68.0" layoutY="290.0" mnemonicParsing="false" onAction="#open_signup" prefHeight="32.0" prefWidth="93.0" styleClass="Buttons" text="Sign Up" />
+            <Label layoutX="750.0" layoutY="84.0" text="Have an account?" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="770.0" layoutY="141.0" text="Welcome! " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="720.0" layoutY="191.0" prefHeight="70.0" prefWidth="225.0" text="You are seconds away from your Book..." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="780.0" layoutY="280.0" mnemonicParsing="false" onAction="#open_signin" prefHeight="32.0" prefWidth="93.0" styleClass="Buttons" text="Sign In" />
+            <VBox id="vbox" fx:id="vbox" alignment="CENTER_LEFT" layoutX="21.0" layoutY="1.0" prefHeight="400.0" prefWidth="480.0" styleClass="white-pane" stylesheets="@styles.css" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
